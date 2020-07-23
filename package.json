@@ -1,0 +1,25 @@
+{
+  "name": "readme_gen_z",
+  "version": "1.0.0",
+  "description": "node.js that generates a quality README.md file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorOtterson/readme_gen_z"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevorOtterson/readme_gen_z/issues"
+  },
+  "homepage": "https://github.com/TrevorOtterson/readme_gen_z#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^6.3.1",
+    "prompts": "^2.3.2",
+    "util": "^0.12.3"
+  }
+}

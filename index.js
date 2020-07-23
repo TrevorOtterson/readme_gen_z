@@ -68,7 +68,7 @@ function userPrompt() {
 // Generates users README.md file
 function generateREADME(answers) {
     return `
-![GitHub license](https://img.shields.io/badge/license-${answers.license}-bluehttps://img.shields.io/badge/license-${answers.license}-bluehttps://img.shields.io/badge/license-${answers.license}-blue.)
+![GitHub license](https://img.shields.io/badge/license-${encodeURI(answers.license)}-blue.svg)
 # ${answers.title}
     
 ## DESCRIPTION:

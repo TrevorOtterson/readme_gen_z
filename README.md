@@ -1,5 +1,4 @@
-
-![GitHub license](https://img.shields.io/badge/license-GNU LGPLv3-bluehttps://img.shields.io/badge/license-GNU LGPLv3-bluehttps://img.shields.io/badge/license-GNU LGPLv3-blue.)
+![GitHub license](https://img.shields.io/badge/license-${encodeURI(answers.license)}-blue.svg)
 # readme_gen_z
     
 ## DESCRIPTION:
@@ -31,4 +30,3 @@ Test in node.js
 ## QUESTIONS:
 For any questions about the application refer to my Github: [TrevorOtterson](https://github.com/TrevorOtterson)
 Or contact me by email: totterson@yahoo.com
-    

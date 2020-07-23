@@ -20,12 +20,6 @@ function userPrompt() {
             name: "description",
             message: "Enter a description"
         },
-        // Table of Contents for README
-        {
-            type: "input",
-            name: "table of contents",
-            message: "Enter table of contents for README"
-        },
         // Instructions on intalling files
         {
             type: "input",
@@ -74,18 +68,19 @@ function userPrompt() {
 // Generates users README.md file
 function generateREADME(answers) {
     return `
+    ![GitHub license](https://img.shields.io/badge/license-${answers.license}-bluehttps://img.shields.io/badge/license-${answers.license}-bluehttps://img.shields.io/badge/license-${answers.license}-blue.)
     # ${answers.title}
     
     ## DESCRIPTION:
     ${answers.description}
 
     ## TABLE OF CONTENTS: 
-    #### 1. [Installation](#Installation)
-    #### 2. [Usage](#Usage) 
-    #### 3. [License](#License) 
-    #### 4. [Contributing](#Contributing) 
-    #### 5. [Tests](#Tests)
-    #### 6. [Questions](#Questions) 
+    ### 1. [Installation](#Installation)
+    ### 2. [Usage](#Usage) 
+    ### 3. [License](#License) 
+    ### 4. [Contributing](#Contributing) 
+    ### 5. [Tests](#Tests)
+    ### 6. [Questions](#Questions) 
 
     ## INSTALLATION:
     ${answers.installation}
@@ -111,13 +106,13 @@ function generateREADME(answers) {
 // Calls user input and pushes them to README.md
 userPrompt()
     .then(function (answers) {
-        const README = generateREADME(answers);
+        const README = generateREADME(answers)
 
-        return writeFileAsync("README.md", README);
+        return writeFileAsync("README.md", README)
     })
     .then(function () {
-        console.log("Successfully wrote to README.md");
+        console.log("Successfully wrote to README.md")
     })
     .catch(function (err) {
-        console.log(err);
+        console.log(err)
     });

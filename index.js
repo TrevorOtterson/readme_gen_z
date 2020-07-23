@@ -68,38 +68,38 @@ function userPrompt() {
 // Generates users README.md file
 function generateREADME(answers) {
     return `
-    ![GitHub license](https://img.shields.io/badge/license-${answers.license}-bluehttps://img.shields.io/badge/license-${answers.license}-bluehttps://img.shields.io/badge/license-${answers.license}-blue.)
-    # ${answers.title}
+![GitHub license](https://img.shields.io/badge/license-${answers.license}-bluehttps://img.shields.io/badge/license-${answers.license}-bluehttps://img.shields.io/badge/license-${answers.license}-blue.)
+# ${answers.title}
     
-    ## DESCRIPTION:
-    ${answers.description}
+## DESCRIPTION:
+${answers.description}
 
-    ## TABLE OF CONTENTS: 
-    ### 1. [Installation](#Installation)
-    ### 2. [Usage](#Usage) 
-    ### 3. [License](#License) 
-    ### 4. [Contributing](#Contributing) 
-    ### 5. [Tests](#Tests)
-    ### 6. [Questions](#Questions) 
+## TABLE OF CONTENTS: 
+### 1. [Installation](#Installation)
+### 2. [Usage](#Usage) 
+### 3. [License](#License) 
+### 4. [Contributing](#Contributing) 
+### 5. [Tests](#Tests)
+### 6. [Questions](#Questions) 
 
-    ## INSTALLATION:
-    ${answers.installation}
+## INSTALLATION:
+${answers.installation}
 
-    ## USAGE:
-    ${answers.usage}
+## USAGE:
+${answers.usage}
 
-    ## LICENSE:
-    ${answers.license}
+## LICENSE:
+${answers.license}
 
-    ## CONTRIBUTION:
-    ${answers.contribution}
+## CONTRIBUTION:
+${answers.contribution}
 
-    ## TEST:
-    ${answers.tests}
+## TEST:
+${answers.tests}
 
-    ## QUESTIONS:
-    For any questions about the application refer to my Github: [${answers.github}](https://github.com/${answers.github})
-    Or contact me by email: ${answers.email}
+## QUESTIONS:
+For any questions about the application refer to my Github: [${answers.github}](https://github.com/${answers.github})
+Or contact me by email: ${answers.email}
     `
 }
 

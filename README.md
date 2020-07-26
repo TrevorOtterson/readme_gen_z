@@ -1,9 +1,9 @@
 
-![GitHub license](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-blue.svg)
-# xxx
+![GitHub license](https://img.shields.io/badge/license-GNU%20AGPLv3-blue.svg)
+# Readme Gen Z
     
 ## DESCRIPTION:
-xxx
+This application was made to make it easy for a developer to make a quality README.md. I created this template that you can just fill out in node.js and it will automatically update your README.md. The user can input: installation instructions, usage information, license(s) used, contribution rules, tests, and questions concerning their project. The question tab will link the users github, and email.
 
 ## TABLE OF CONTENTS: 
 ### 1. [Installation](#Installation)
@@ -14,21 +14,20 @@ xxx
 ### 6. [Questions](#Questions) 
 
 ## INSTALLATION:
-xxx
+npm init, npm i inquirer, npm i prompts, npm i util, npm i fs
 
 ## USAGE:
-xxx
+To create a quality README.md using a template.
 
 ## LICENSE:
-Mozilla Public License 2.0
+GNU AGPLv3
 
 ## CONTRIBUTION:
-xxx
+N/A
 
 ## TEST:
-xxx
+Test in node.js in terminal.
 
 ## QUESTIONS:
 For any questions about the application refer to my Github: [TrevorOtterson](https://github.com/TrevorOtterson)
-Or contact me by email: Totterson@yahoo.com
-    
+Or contact me by email: totterson@yahoo.com

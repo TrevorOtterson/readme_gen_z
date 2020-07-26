@@ -6,6 +6,6 @@ To initiate document you must type node index.js into the terminal, Then follow 
 
 Below is what it looks like in the terminal, and a link to a tutorial video I made of how to use the application.
 
-<img src="assets/images/project_in_term.png" alt="Project in node" width="300"/>
+<img src="assets/images/project_in_term.png" alt="Project in node" width="700"/>
 
 <a>https://drive.google.com/file/d/11UnXpOwwWy5WzlXcy1PoWp2g7tn0Zu4Y/view</a>
